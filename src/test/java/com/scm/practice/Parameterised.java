@@ -6,7 +6,7 @@ public class Parameterised {
 @Test
 public void p()
 {
-System.out.println(System.getProperty("url"));
-System.out.println(System.getProperty("password"));
+System.out.println("URL: "+System.getProperty("url"));
+System.out.println("PASSWORD: "+System.getProperty("password"));
 }
 }
