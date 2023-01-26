@@ -6,6 +6,6 @@ public class P1 {
 @Test
 public void m()
 {
-	System.out.println("first output in jenkins");	
+	System.out.println("hi,first output in jenkins");	
 }
 }
