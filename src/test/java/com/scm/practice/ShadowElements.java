@@ -22,7 +22,9 @@ public class ShadowElements {
 				+ "shadowRoot.querySelector('#search').shadowRoot.querySelector('#searchInput')");
 		ele.sendKeys("shankar");
 		Thread.sleep(4000);
-		WebElement ele1 = (WebElement) js.executeScript("return document.querySelector(\"body > downloads-manager\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#search\").shadowRoot.querySelector(\"#clearSearch\").shadowRoot.querySelector(\"#icon > iron-icon\")");
+		WebElement ele1 = (WebElement) js.executeScript("return document.querySelector(\"body > downloads-manager\")"
+				+ ".shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector"
+				+ "(\"#search\").shadowRoot.querySelector(\"#clearSearch\").shadowRoot.querySelector(\"#icon > iron-icon\")");
 			
 		ele1.click();
 		driver.quit();
